@@ -1,0 +1,19 @@
+{
+  "name": "generate-wisdom",
+  "version": "1.0.0",
+  "description": "Get randomly generated wisdom to help you through your day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tracykm/generate-wisdom.git"
+  },
+  "author": "Tracy Mullen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tracykm/generate-wisdom/issues"
+  },
+  "homepage": "https://github.com/tracykm/generate-wisdom#readme"
+}
