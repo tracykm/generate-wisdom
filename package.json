@@ -1,6 +1,6 @@
 {
   "name": "generate-wisdom",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get randomly generated wisdom to help you through your day.",
   "main": "dist/index.js",
   "scripts": {
