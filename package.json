@@ -1,10 +1,12 @@
 {
   "name": "generate-wisdom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get randomly generated wisdom to help you through your day.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run build",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/tracykm/generate-wisdom/issues"
   },
-  "homepage": "https://github.com/tracykm/generate-wisdom#readme"
+  "homepage": "https://github.com/tracykm/generate-wisdom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
