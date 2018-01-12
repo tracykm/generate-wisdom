@@ -11,4 +11,4 @@ function generateWisdom() {
       NOUN[Math.floor(Math.random() * NOUN.length)].toLowerCase();
     return wisdom;
   }
-module.exports = generateWisdom;
+export default generateWisdom;
